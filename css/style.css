@@ -817,10 +817,13 @@ del {
     color:#212121 ;
 }
 
-.icon-text {
-    font-size: 16px;
-    font-weight: 400;
-    color: #616161;
+@media (max-width: 560px){
+    .icon-band-text {
+    font-size: 15px;
+    font-weight: 500;
+    color:#212121 ;
+}
+
 }
 
 .main-all-heading {
@@ -1304,14 +1307,6 @@ hr.why-hr-line{
     }
 }
 
-@media (max-width: 560px){
-
-/* .tab-custom-heading{
-    display: none;
- }
-*/
-
-}
 
 
 
@@ -1325,4 +1320,27 @@ hr.why-hr-line{
     font-size: 16px;
     color: #212121;
     text-align: justify;
+}
+
+
+.vl-icon-line {
+    border-left: 2px solid #bdbdbd;
+    height: 435px;
+    position: absolute;
+    left: 11%;
+    margin-left: -3px;
+    top: 2px;
+}
+
+
+@media (max-width: 400px){
+
+ .vl-icon-line {
+    border-left: 2px solid #bdbdbd;
+    height: 435px;
+    position: absolute;
+    left: 12%;
+    margin-left: -3px;
+    top: 2px;
+}
 }
