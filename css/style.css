@@ -26,19 +26,15 @@ header {
     background-size: auto !important;
 }
 
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .uk-banner-vitiligo {
-    background-position: top right, bottom left;
-    background-repeat: no-repeat;
-    background-image: url(../images/banner-right-top-mob.webp),
+        background-position: top right, bottom left;
+        background-repeat: no-repeat;
+        background-image: url(../images/banner-right-top-mob.webp),
     url(../images/banner-left-bottom-mob.webp);
-    background-size: auto !important;
+        background-size: auto !important;
+    }
 }
-
-}
-
-
 
 .banner_cus_bg {
     background: #f8dbb5;
@@ -160,7 +156,8 @@ header {
     .banner_area {
 /*        background: #eae8e9;*/
         margin-top: 60px;
-/*        background-size: cover;*/;
+/*        background-size: cover;*/
+        ;
     }
 
     .form_widget_area {
@@ -187,7 +184,8 @@ header {
     .banner_area {
         height: auto;
 /*        background: #f2f2f2;*/
-/*        background-repeat: repeat;*/;
+/*        background-repeat: repeat;*/
+        ;
     }
 
     .banner_text h1, .banner_h2, .head_text {
@@ -250,11 +248,8 @@ header {
     box-shadow: none;
     border-color: #a6a8ab;
     border-radius: 15px;
-    font-family: inherit;
     height: 35px;
     font-size: 0.875em;
-    font-family: inherit;
-/*    padding: 5px 10px;*/;
 }
 
 .contactForm .form-control:focus {
@@ -328,7 +323,8 @@ header {
         width: 100%;
         z-index: 3;
         padding: 30px 30px 30px 30px;
-/*        background-color: #eae9e7;*/;
+/*        background-color: #eae9e7;*/
+        ;
     }
 
     .contactForm {
@@ -357,7 +353,7 @@ header {
 */
 
     .contactFormHolder {
-      background-color: #fbb46d;
+        background-color: #fbb46d;
     }
 
     .formLogo {
@@ -412,7 +408,7 @@ header {
 
     .contactForm {
         padding: 20px !important;
-/*        margin-top: -55px;*/
+/*        margin-top: -55px;*/;
     }
 }
 
@@ -457,7 +453,8 @@ header {
 }
 
 .contactForm .row {
-/*    margin: 0 !important;*/;
+/*    margin: 0 !important;*/
+    ;
 }
 
 .form-group label {
@@ -676,7 +673,7 @@ del {
     font-weight: 600;
     text-transform: uppercase;
     color: #212121;
-    background-image: linear-gradient(270deg, #f6dab6, #fbb46d, #fbb46d);   
+    background-image: linear-gradient(270deg, #f6dab6, #fbb46d, #fbb46d);
     display: inline;
 }
 
@@ -719,7 +716,7 @@ del {
         font-weight: 600;
         text-transform: uppercase;
         color: #212121;
-         background-image: linear-gradient(270deg, #f6dab6, #fbb46d, #fbb46d);
+        background-image: linear-gradient(270deg, #f6dab6, #fbb46d, #fbb46d);
         display: inline;
     }
 
@@ -749,23 +746,24 @@ del {
 @media screen and (max-width: 1400px) and (min-width: 768px) {
 
     .banner_para {
-    padding-top: 5px;
-    font-size: 18px;
-    line-height: 24px;
-    color: #212121;
-    font-weight: 400;
-}
+        padding-top: 5px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #212121;
+        font-weight: 400;
+    }
 
-.banner_ornge_heding {
-    padding: 5px 12px;
-    font-size: 27px;
-    line-height: 49px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #212121;
-    background-image: linear-gradient(270deg, #f6dab6, #fbb46d, #fbb46d);  
-    display: inline;
-}
+    .banner_ornge_heding {
+        padding: 5px 12px;
+        font-size: 27px;
+        line-height: 49px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #212121;
+        background-image: linear-gradient(270deg, #f6dab6, #fbb46d, #fbb46d);
+        display: inline;
+    }
+
     .test_vitiligo_btn {
         text-transform: uppercase;
         background: #ba7c50 !important;
@@ -776,7 +774,6 @@ del {
         box-shadow: 0 1px 9px 0 rgb(129 105 67);
     }
 }
-
 
 @media (max-width: 600px) {
     .test_vitiligo_btn {
@@ -794,7 +791,7 @@ del {
     background: #fbb46d;
 /*    margin-top: -30px;*/
 /*    position: relative;*/
-/*    z-index: 2;*/
+/*    z-index: 2;*/;
 }
 
 .icon-band p {
@@ -814,16 +811,15 @@ del {
 .icon-band-text {
     font-size: 16px;
     font-weight: 600;
-    color:#212121 ;
+    color: #212121;
 }
 
-@media (max-width: 560px){
+@media (max-width: 560px) {
     .icon-band-text {
-    font-size: 15px;
-    font-weight: 500;
-    color:#212121 ;
-}
-
+        font-size: 15px;
+        font-weight: 500;
+        color: #212121;
+    }
 }
 
 .main-all-heading {
@@ -857,10 +853,11 @@ del {
 }
 
 .section-padding {
-/*  margin: 0 auto;*/;
+/*  margin: 0 auto;*/
+    ;
 }
 
-.owl-carousel{
+.owl-carousel {
     z-index: 0;
 }
 
@@ -919,8 +916,6 @@ del {
     }
 }
 
-
-
 .award-heading {
     font-size: 12px;
     font-weight: 600;
@@ -945,7 +940,7 @@ del {
     color: #757575;
     font-weight: 500;
     line-height: 19px;
-    height:30px;
+    height: 30px;
 }
 
 .our-doctor-heading {
@@ -966,12 +961,11 @@ del {
     background-size: cover;
 }
 
-
-@media (max-width: 575px){
+@media (max-width: 575px) {
     .our-doc-advantages-bg {
-    background: url(../images/our-doc-bg-mob.webp) bottom center no-repeat;
-    background-size: cover;
-}
+        background: url(../images/our-doc-bg-mob.webp) bottom center no-repeat;
+        background-size: cover;
+    }
 }
 
 .our-doc-list li {
@@ -1042,8 +1036,8 @@ del {
     padding-top: 20px;
 }
 
-hr.why-hr-line{
-  border: 1px solid #e3cbb9;
+hr.why-hr-line {
+    border: 1px solid #e3cbb9;
 }
 
 
@@ -1058,8 +1052,8 @@ hr.why-hr-line{
     font-weight: 600 !important;
 }
 
-.copyright{
-    font-weight: 600 ;
+.copyright {
+    font-weight: 600;
 }
 
 .footerLink ul {
@@ -1127,18 +1121,16 @@ hr.why-hr-line{
     width: 100%;
 }
 
-
-.what-is-sorieses{
+.what-is-sorieses {
     padding: 25px 30px 20px;
     background: url(../images/what-sos-bg.webp);
 }
 
-.why-all-main-para{
+.why-all-main-para {
     color: #212121;
     font-weight: 500;
     text-align: justify;
     margin-bottom: 0;
-    
 }
 
 /*.why-all-para-line{
@@ -1147,19 +1139,15 @@ hr.why-hr-line{
 */
 
 .why-all-para-line {
-  border-right: 1px solid #212121;
+    border-right: 1px solid #212121;
 }
-
 
 @media (max-width: 560px) {
  
- .why-all-para-line {
-  border-right: none;
+    .why-all-para-line {
+        border-right: none;
+    }
 }
-  
-}
-
-
 
 .tabbed-content {
     background: #fff;
@@ -1176,7 +1164,7 @@ hr.why-hr-line{
 
 .tabs ul li {
     background: #fff;
-/*    border-right: 2px solid #606060;*/
+/*    border-right: 2px solid #606060;*/;
 }
 
 .tabs ul li a {
@@ -1236,7 +1224,7 @@ hr.why-hr-line{
 .tab-custom-content {
     overflow: auto;
     background: #fff;
-/*    padding: 20px 7px;*/
+/*    padding: 20px 7px;*/;
 }
 
 @media all and (min-width: 800px) {
@@ -1307,21 +1295,17 @@ hr.why-hr-line{
     }
 }
 
-
-
-
-.homeopathy-bottle-cls{
+.homeopathy-bottle-cls {
     margin-left: -30px;
     position: absolute;
     bottom: -50px;
 }
 
-.homeopathy-para{
+.homeopathy-para {
     font-size: 16px;
     color: #212121;
     text-align: justify;
 }
-
 
 .vl-icon-line {
     border-left: 2px solid #bdbdbd;
@@ -1332,15 +1316,14 @@ hr.why-hr-line{
     top: 2px;
 }
 
+@media (max-width: 400px) {
 
-@media (max-width: 400px){
-
- .vl-icon-line {
-    border-left: 2px solid #bdbdbd;
-    height: 435px;
-    position: absolute;
-    left: 12%;
-    margin-left: -3px;
-    top: 2px;
-}
+    .vl-icon-line {
+        border-left: 2px solid #bdbdbd;
+        height: 435px;
+        position: absolute;
+        left: 12%;
+        margin-left: -3px;
+        top: 2px;
+    }
 }
